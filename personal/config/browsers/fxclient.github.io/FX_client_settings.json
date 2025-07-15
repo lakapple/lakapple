@@ -1,5 +1,5 @@
 {
-    "displayWinCounter": true,
+    "displayWinCounter": false,
     "useFullscreenMode": false,
     "hoveringTooltip": true,
     "realisticNames": false,
@@ -9,9 +9,9 @@
     "hideBotNames": true,
     "highlightClanSpawns": true,
     "detailedTeamPercentage": true,
-    "openDonationHistoryFromLb": true,
+    "openDonationHistoryFromLb": false,
     "customBackgroundUrl": "https://github.com/lakapple/lakapple/blob/main/personal/assets/catppuccin_triangle.png?raw=true",
-    "keybindButtons": true,
+    "keybindButtons": false,
     "attackPercentageKeybinds": [
         {
             "key": "1",
@@ -21,27 +21,27 @@
         {
             "key": "2",
             "type": "absolute",
-            "value": 0.345
+            "value": 0.198
         },
         {
             "key": "3",
             "type": "absolute",
-            "value": 0.321
+            "value": 0.168
         },
         {
             "key": "4",
             "type": "absolute",
-            "value": 0.28
+            "value": 0.321
         },
         {
             "key": "5",
             "type": "absolute",
-            "value": 0.37
+            "value": 0.304
         },
         {
             "key": "6",
             "type": "absolute",
-            "value": 0.32
+            "value": 0.432
         }
     ]
 }
