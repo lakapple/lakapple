@@ -21,8 +21,8 @@
     {
       "id": 1751898507993,
       "title": "Discord",
-      "favicon": "https://www.google.com/s2/favicons?domain=https://discord.com",
-      "url": "https://discord.com"
+      "favicon": "https://www.google.com/s2/favicons?domain=https://discord.com/channels/@me",
+      "url": "https://discord.com/channels/@me"
     },
     {
       "id": 1751898527913,
@@ -49,10 +49,16 @@
       "url": "https://mail.google.com"
     }
   ],
-  "theme": "theme-catppuccin-mocha",
+  "theme": "theme-catppuccin-macchiato",
   "backgroundImage": "https://github.com/lakapple/lakapple/blob/main/personal/assets/catppuccin_triangle.png?raw=true",
   "blurAmount": "3",
-  "todoLists": {},
+  "todoLists": {
+    "1754450067250": [],
+    "1754450065777": [],
+    "1754450071409": [],
+    "1754450107090": [],
+    "1754450113282": []
+  },
   "timeFormat24h": true,
   "showCompletedTodos": true,
   "noteCollections": {},
