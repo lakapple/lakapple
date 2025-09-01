@@ -3,7 +3,9 @@
         "autoUpdate": true,
         "autoUpdateNotification": true,
         "useQuickCss": true,
-        "themeLinks": [],
+        "themeLinks": [
+            "https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css"
+        ],
         "eagerPatches": false,
         "enabledThemes": [],
         "enableReactDevtools": false,
@@ -51,13 +53,15 @@
                 "prioritizeServerProfile": false
             },
             "AlwaysAnimate": {
-                "enabled": false
+                "enabled": true
             },
             "AlwaysExpandRoles": {
                 "enabled": false
             },
             "AlwaysTrust": {
-                "enabled": true
+                "enabled": true,
+                "domain": true,
+                "file": true
             },
             "AnonymiseFileNames": {
                 "enabled": true,
@@ -87,7 +91,8 @@
                 "enabled": true
             },
             "BetterNotesBox": {
-                "enabled": true
+                "enabled": true,
+                "hide": false
             },
             "BetterRoleContext": {
                 "enabled": true
@@ -132,7 +137,10 @@
                 "enabled": false
             },
             "ConsoleJanitor": {
-                "enabled": true
+                "enabled": true,
+                "disableLoggers": false,
+                "disableSpotifyLogger": true,
+                "whitelistedLoggers": "GatewaySocket; Routing/Utils"
             },
             "ConsoleShortcuts": {
                 "enabled": false
@@ -454,10 +462,15 @@
                 "enabled": false
             },
             "ShowHiddenChannels": {
-                "enabled": true
+                "enabled": true,
+                "showMode": 0,
+                "hideUnreads": true
             },
             "ShowHiddenThings": {
-                "enabled": true
+                "enabled": true,
+                "showTimeouts": true,
+                "showInvitesPaused": true,
+                "showModView": true
             },
             "ShowMeYourName": {
                 "enabled": true
@@ -593,6 +606,33 @@
             },
             "SupportHelper": {
                 "enabled": true
+            },
+            "CopyStickerLinks": {
+                "enabled": false
+            },
+            "FixSpotifyEmbeds": {
+                "enabled": false
+            },
+            "FixYoutubeEmbeds": {
+                "enabled": false
+            },
+            "ImageFilename": {
+                "enabled": false
+            },
+            "InvisibleChat": {
+                "enabled": false
+            },
+            "NoSystemBadge": {
+                "enabled": false
+            },
+            "ShikiCodeblocks": {
+                "enabled": false
+            },
+            "YoutubeAdblock": {
+                "enabled": false
+            },
+            "AppleMusicRichPresence": {
+                "enabled": false
             }
         },
         "notifications": {
@@ -605,7 +645,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1753515476441
+            "settingsSyncVersion": 1756730509078
         }
     },
     "quickCss": ""
