@@ -49,8 +49,8 @@
       "url": "https://mail.google.com"
     }
   ],
-  "theme": "theme-catppuccin-macchiato",
-  "backgroundImage": "https://github.com/lakapple/lakapple/blob/main/personal/assets/catppuccin_triangle_(16:9_2560:1440).png?raw=true",
+  "theme": "theme-catppuccin-mocha",
+  "backgroundImage": "https://github.com/lakapple/lakapple/blob/main/personal/assets/catppuccin_dots_1920x1080.png?raw=true",
   "blurAmount": "3",
   "todoLists": {
     "1754450067250": [],
