@@ -18,7 +18,6 @@ binds {
     Mod+I                               hotkey-overlay-title="Open Settings: noctalia settings" { spawn-sh "noctalia msg settings-toggle"; }
     Mod+A                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     Mod+V                               hotkey-overlay-title="Open Clipboard" { spawn-sh "noctalia msg panel-toggle clipboard"; }
-    Mod+N				hotkey-overlay-title="Open Notepad" { spawn-sh "noctalia msg panel-toggle noctalia/notes:panel"; } 
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "noctalia msg session lock"; }
     // Mod+Shift+Q                      hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "noctalia msg panel-toggle session"; }
 
